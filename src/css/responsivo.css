@@ -1,0 +1,104 @@
+@media(max-width: 525px) {
+    .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 375px;
+        background: url('../images/bg-mobile.svg') no-repeat;
+        position: relative;
+        margin: 0;
+
+        
+    }
+
+    .container .corpo {
+        flex-direction: column;
+
+    }
+
+    .container .logo {
+        margin-left: 32px ;
+        margin-top: -20px;
+    }
+
+    .container .logo img {
+        width: 126px;
+    }
+
+    .container .corpo .imagem-principal {
+        display: flex;
+        justify-content: center;
+    }
+
+    .container .corpo .imagem-principal img {
+        margin-left: 0;
+        margin-top: -30px;
+        width: 290px;
+    }
+    .container .corpo .informacoes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 14px;
+    
+    }
+
+    .container .corpo .informacoes .title {
+        font-size: 23px;
+    }
+
+    .container .corpo .informacoes .descricao {
+        line-height: 1.4;
+        margin: 0 -25px;
+        margin-top: -6px;
+        margin-bottom: 25px;
+    }
+
+    .container .corpo .informacoes .botao{
+        display: none;
+    }
+
+    .container .corpo .informacoes .btn-responsivo {
+        display: block;
+        background-color: white;
+        padding: 10px 70px;
+        border-radius: 20px;
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+
+    .container .corpo .informacoes .btn-responsivo:hover {
+        background-color: hsl(300, 69%, 71%);
+        color: white;
+    }
+
+    .container .social {
+        display: none;
+    }
+    .container .social-responsivo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .container .social-responsivo a {
+        color: white;
+        border: 1px solid white;
+        border-radius: 50%;
+        padding: 12px;
+        position: relative;
+    }
+    .container .social-responsivo a i {
+        position: absolute;
+        top: 5px;
+        left: 6px;  
+    }
+
+    .container .social-responsivo a:hover {
+        border-color: hsl(300, 69%, 71%);
+        color: hsl(300, 69%, 71%);
+    }
+}

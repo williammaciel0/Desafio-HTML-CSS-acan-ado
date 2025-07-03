@@ -1,0 +1,96 @@
+body {
+    background-color: hsl(257, 40%, 49%);
+    font-family: 'Open Sans';
+}
+
+.container {
+    margin: 0 0 70px 70px;
+    max-width: 100%;
+    max-height: 100%;
+    background: url('../images/bg-desktop.svg') center center no-repeat;
+    background-size: cover;
+}
+
+.container .logo img {
+    width: 217px;
+    margin: 51px 0 81px 0;
+}
+
+.container .corpo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .corpo .informacoes {
+    padding: 41px 55px;
+    color: white;
+}
+
+.container .corpo .informacoes .title {
+    text-transform: capitalize;
+    font-size: 40px;
+    line-height: 1.6;
+    font-weight: 700;
+    margin-bottom: 17px;
+
+}
+
+.container .corpo .informacoes p {
+    line-height: 1.7;
+    margin-bottom: 23px;
+}
+
+.container .corpo .informacoes .botao {
+    display: flex;
+    width: 100px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 100px;
+    border-radius: 25px;
+    font-size: 18px;
+    font-family: 'Poppins';
+    box-shadow: 1px 2px 2px 1px rgb(113, 112, 112);
+    transition: 0.2s;
+
+}
+
+.container .corpo .informacoes .botao:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+}
+
+.btn-responsivo {
+    display: none;
+}
+
+.container .social {
+    display: flex;
+    margin-top: 16px;
+    margin-right: 40px;
+    padding-bottom: 38px;
+    justify-content: end;   
+}
+
+.container .social-responsivo {
+    display: none;
+}
+
+.container .social a {
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 20px;
+    margin-left: 14px; 
+    position: relative;
+}
+.container .social a i {
+    position: absolute;
+    left: 13px;
+    top: 13px;
+}
+
+.container .social a:hover {
+    border-color: hsl(300, 69%, 71%);
+    color: hsl(300, 69%, 71%);
+}
